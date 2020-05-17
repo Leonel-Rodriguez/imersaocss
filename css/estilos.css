@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-branco-elegante-com-linhas-brilhantes_1017-17580.jpg?size=626&ext=jpg");
+    background-size: auto 150vh;
+    font-family: Arial;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: grey;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  .menu ul { 
+    display: flex;
+    justify-content: space-around;
+  }
+  a {
+    color: yellow;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
